@@ -163,3 +163,166 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Martinez Electric Services LLC</title>
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: #fff;
+}
+
+header {
+  background: #000;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid #f4c542;
+}
+
+header h1 {
+  margin: 0;
+  color: #f4c542;
+}
+
+.hero {
+  background: url('image1.jpg') center/cover no-repeat;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  background: #f4c542;
+  color: #000;
+  padding: 15px 25px;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.services {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #222;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+  gap: 10px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+footer {
+  background: #000;
+  text-align: center;
+  padding: 20px;
+  border-top: 3px solid #f4c542;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Martinez Electric Services LLC</h1>
+  <p>Serving Montgomery & Harris County</p>
+</header>
+
+<section class="hero">
+  <div>
+    <h2>Master Electrician Services You Can Trust</h2>
+    <div class="buttons">
+      <a href="tel:8325630637" class="btn">Call Now</a>
+      <a href="mailto:Martinezelectricservicesllc@gmail.com" class="btn">Email Us</a>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">
+      <h3>New Custom Homes</h3>
+      <p>Full electrical installations for new builds.</p>
+    </div>
+    <div class="card">
+      <h3>Remodels</h3>
+      <p>Upgrade and modernize your electrical systems.</p>
+    </div>
+    <div class="card">
+      <h3>Add-Ons</h3>
+      <p>Room additions, garages, and expansions.</p>
+    </div>
+    <div class="card">
+      <h3>All Electrical Work</h3>
+      <p>No job too big or small.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Our Work</h2>
+  <div class="gallery">
+
+    <img src="image2.jpg">
+    <img src="image3.jpg">
+    <img src="image4.jpg">
+    <img src="image5.jpg">
+    <img src="image6.jpg">
+    <img src="image7.jpg">
+    <img src="image8.jpg">
+    <img src="image9.jpg">
+    <img src="image10.jpg">
+
+  </div>
+</section>
+
+<section class="section">
+  <h2>Contact Us</h2>
+  <p>Phone: 832-563-0637</p>
+  <p>Email: Martinezelectricservicesllc@gmail.com</p>
+</section>
+
+<footer>
+  <p>© 2026 Martinez Electric Services LLC</p>
+</footer>
+
+</body>
+</html>
